@@ -1,4 +1,4 @@
-# Mitsuba_Install_MacOS
+# Install Mitsuba Renderer on Mac OS High Sierra
 This document provides my working process of installing the latest Mitsuba renderer 0.6.0 on MacOS using Anaconda.
 
 Note: Mac does not support OpenMP thus some function has to be run in single thread.
