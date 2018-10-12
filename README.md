@@ -66,7 +66,7 @@ $cp ./build/config-macos10.12-clang-x86_64.py config.py
 ```
 
 
-5. If your render XML is written in Python 2.7 and use the new XCode command line tools, please open config.py and change from:
+5. If your renderer is written in Python 2.7 and use the new XCode command line tools, please open config.py and change from:
 ```
 PYTHON27INCLUDE= ['/System/Library/Frameworks/Python.framework/Versions/2.7/Headers']
 ```
