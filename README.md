@@ -1,17 +1,21 @@
 # Install Mitsuba Renderer on Mac OS High Sierra
-This document provides my working process of installing the latest Mitsuba renderer 0.6.0 on MacOS using Anaconda.
+This document provides my working process of installing the latest Mitsuba renderer 0.6.0 on MacOS with Anaconda.
 
 Note: Mac does not support OpenMP thus some function has to be run in single thread.
 
 The latest Mitsuba version is 0.6.0 on GitHub, which has not been put on the official website.
 
-# OS
+GitHub: https://github.com/mitsuba-renderer/mitsuba.git
+
+Official Website: https://www.mitsuba-renderer.org/download.html
+
+# Operating System
 
 MacOS High Sierra (V10.13.6)
 
 # Preparation
 
-A clean Python 2.7 environment (I use Anaconda to create), and make sure that the default python is 2.7 instead of 3.5/3.6, since Mitsuba configuration file is written in Python2.
+A clean Python 2.7 environment (I use Anaconda to create), and make sure that the default python is 2.7 instead of 3.5/3.6, since Mitsuba source file is written in Python2.
 ```
 $conda create -n mitsuba_py27 python=2.7
 $source activate mitsuba_py27
